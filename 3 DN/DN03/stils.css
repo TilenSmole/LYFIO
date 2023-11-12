@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #3e7cb1;
+    color: black; 
+    
+  }
+
+
+a{
+    text-decoration:none;
+
+
+}
+nav  {
+    text-decoration:none;
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 0.5% ;
+    padding-top: 0.5% ;
+
+}
+
+
+
+#imeAplikacije{
+    text-decoration:none;
+    font-size:27px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#tabela, #stat, #oProjektu, #imeAplikacije {
+    color: black; 
+    padding-bottom: 10px;
+
+
+}
+#tabela, #stat, #oProjektu {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    
+}
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #3e7cb1;
+    color: black; 
+    padding: 1%;
+    clear: both;
+    display: block;
+}
+
+
+
+
+tr, th, td, table{
+    margin:  auto;
+    text-align: center;
+    width: 50px;
+    height:  50px;
+    border:black 1px;
+    border-style: dotted;
+
+
+}
+
+#notranjost{
+    padding-top: 4%;
+
+}
+
+
+body {
+    background-color:  #ccd6e2;
+}   
+
+
+
+
+
+aside{
+    text-align: center;
+    background-color: #3e7cb1;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.gumbZaDelete{
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#stanjeSplosno{
+    display: block;
+    font-size:20px;
+    padding:5% 1% 5% 2%;  
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+    margin:2% 15% 0% 25% ;
+    font-size: 35px;
+
+
+}
+#uvod{
+    font-size:20px;
+    padding:1% 5% 10% 5%;
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+    margin:2% 2% 5% 2% ;
+
+}
+
+
+#yOsGrafa{
+    display: none;
+}
+#grafStatistike{
+    margin-top: 40%;
+}
+#gumbIskanje{
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 50%;
+    cursor: pointer;
+    padding: 1.5% 2% 1.5% 2%;
+    text-align: center;
+    margin-top: -10%;
+    border-radius: 50%;
+
+
+}
+
+#vprasalnik {
+    display: block;
+    font-size:30px;
+    padding-left: 2%;
+    padding-bottom: 10%;
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+    margin:1% 2% 5% 2% ;
+}
+#besediloOProjektu{
+    display: block;
+    font-size:20px;
+    padding-bottom: 10%;
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+
+
+}
+
+@media only screen and (min-width: 600px) {
+    #imeAplikacije {
+        text-align: left;
+    }
+    #tabela, #stat, #oProjektu, #imeAplikacije{
+        padding-bottom: 0px;
+    }
+    #vprasalnik {
+        display: block;
+        font-size:30px;
+        padding-left: 2%;
+        padding-bottom: 10%;
+        text-align: left;
+        border:solid 1px #181b1c;
+        background-color: #81a4cd   ;
+        margin:1% 2% 5% 2% ;
+    }
+    #tabele{
+        text-align: center;
+        width: 600px;
+        height:  50px;
+        margin-bottom: 10%;
+    }
+
+    #tabele{
+        text-align: center;
+        width: 600px;
+        height:  50px;
+        margin-bottom: 10%;
+    }
+
+    #yOsGrafa{
+        display:none;
+    }
+    #maxsVrednostMobile{
+        display: none
+    }
+    #besediloOProjektu{
+        padding:1% 5% 10% 5%;
+
+    
+    
+    }
+    #statistika{
+        display: block;
+        margin-left: 65% ;
+        margin-top: -27%;
+        border:solid 1px #181b1c;
+        margin-right: 8%;
+        padding: 1% 1% 1% 1%;}
+    
+    #gumbIskanje{
+        background-color: #f37c0e;
+        border: none;
+        color: black;
+        display: inline-block;
+        font-size: 50%;
+        cursor: pointer;
+        padding: 1.5% 2% 1.5% 2%;
+        text-align: center;
+        margin-top: -50%;
+        
+        }
+    #iskanje{
+        margin-top: 8%;
+
+    }
+    #viri{
+        width: 500px;
+        height:  100px;
+    }
+    #grafStatistike{
+        margin-top: 5%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1125px) {
+    #imeAplikacije {
+        text-align: left;
+    }
+    #tabela, #stat, #oProjektu, #imeAplikacije{
+        padding-bottom: 0px;
+    }
+    #vprasalnik {
+        padding:1% 5% 10% 5%;
+
+        margin:1% 5% 5% 5% ;
+    }
+    #tabele{
+        text-align: center;
+        width: 1000px;
+        height:  50px;
+        margin-bottom: 10%;
+    }
+    #yOsGrafa{
+        display:inline;
+    }
+    #maxsVrednostMobile{
+        display: none
+    }
+    #besediloOProjektu{
+
+        margin:2% 20% 5% 20% ;
+    
+    
+    }
+    #statistika{
+        display: block;
+        margin-left: 50% ;
+        margin-top: -27%;
+        border:solid 1px #181b1c;
+        margin-right: 8%;
+        padding: 1% 1% 1% 1%;}
+
+    #gumbIskanje{
+        background-color: #f37c0e;
+        border: none;
+        color: black;
+        display: inline-block;
+        font-size: 50%;
+        cursor: pointer;
+        padding: 1.5% 2% 1.5% 2%;
+        text-align: center;
+        margin-top: -10%;
+    
+    }
+    #viri{
+        width: 500px;
+        height:  100px;
+        border:double;
+    
+    
+    }
+    #grafStatistike{
+        margin-top: 5%;
+    }
+    
+
+}
+
+
+
+#legenda{
+    clear: both;
+    display: block;
+    font-size:30px;
+    padding-left: 2%;
+    padding-bottom: 10%;
+    text-align: left;
+    border:solid 1px #181b1c;
+    background-color: #81a4cd   ;
+    margin:1% 20% 5% 1% ;
+}
+
+
+
+
+#poslji{
+    margin-top: 3%;
+    margin-left: 3.5%;
+    padding: 1% 10%;
+
+}
+
+#poslji:hover, #pocisti:hover, #urediMin:hover, #urediMax:hover , #gumbIskanje:hover{
+    background-color: #d67215;
+    color: whitesmoke;
+  }
+
+
+#pocisti{
+    margin-top: 4%;
+    margin-left: 0.5%;
+    padding: 1% 2%;
+
+}
+
+#pocisti, #poslji{
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 50%;
+    cursor: pointer;
+    border-radius: 12px;
+
+
+
+}
+
+
+
+#urediMin, #urediMax{
+    margin-top: 4%;
+    margin-left: 0.5%;
+    background-color: #f37c0e;
+    border: none;
+    color: black;
+    padding: 1% 4%;
+    text-align: center;
+    display: inline-block;
+    font-size: 70%;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+#urejanja{
+    display: block;
+    margin-left: 55% ;
+    padding: 1% 1% 1% 1%;     
+    cursor: pointer;    
+
+}
+
+#platno{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100%;
+    margin-right: -1%;
+}
+
+#maxVrednostGrafa{
+    border:solid 1px #181b1c;
+    margin-right: 50%;
+    text-align: center;
+}
+#midVrednostGrafa{
+    border:solid 1px #181b1c;
+    margin-right: 50%;
+    text-align: center;
+    margin-bottom: 160%;
+    margin-top: 150%;
+
+}
+#minVrednostGrafa{
+    border:solid 1px #181b1c;
+    margin-right: 50%;
+    text-align: center;
+}
+
+
+
+#loginDesign{
+    border:solid 2px #181b1c;
+    margin-top: 7%;
+    text-align:center;
+    margin-bottom: 7%;
+    font-size:35px;
+    background-color: #81a4cd   ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+#RegisterDesign{
+    border:solid 2px #181b1c;
+    margin:7% 0% 7% ;
+    text-align:center;
+    font-size:30px;
+    background-color: #81a4cd   ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+
+
+
+
+
+.row::after {   /*da footer ne pobegne na neko drugo prosto mesto*/
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+
+[class*="col-"] {
+    float: left;
+  }
+
+  .col-1 { width: 100%; }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+  .col-5 { width: 100%; }
+  .col-6 { width: 100%; }
+  .col-7 { width: 100%; }
+  .col-8 { width: 100%; }
+  .col-9 { width: 100%; }
+  .col-10 { width: 100%; }
+  .col-11 { width: 100%; }
+  .col-12 { width: 100%; }
+  
+  
+  @media only screen and (min-width: 1125px)  {
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 25%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 41.66%; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 66.66%; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+  
+
+
+
+
+  }
+  @media only screen and (min-width:600px) and (max-width:1124px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  img, video, canvas {
+    max-width: 100%;
+    height: auto;
+    }
+    
+  
+  svg{
+    max-width: 100%;
+    height: auto;
+  }

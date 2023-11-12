@@ -1,0 +1,136 @@
+.BlockedViewCentral{
+    border:solid 2px #181b1c;
+    text-align:center;
+    font-size:35px;
+    background-color: #81a4cd   ;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding: 5%;
+
+}
+
+#BlockedViewCentral2{
+    border:solid 2px #181b1c;
+    text-align:center;
+    font-size:35px;
+    background-color: #81a4cd   ;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+#BlockedViewIndex{
+    border:solid 2px #181b1c;
+    text-align:center;
+    font-size:35px;
+    background-color: #81a4cd   ;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding: 5%;
+}
+
+#deleteGumb, #spremeniGumb{
+background-color: #81a4cd; /* Green */
+  border: none;
+  color: black;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+
+
+}
+
+#deleteGumb:hover, #spremeniGumb:hover {
+    background-color: #f37c0e; /* Green */
+    color: white;
+  }
+
+
+  tr, th, td, table{
+    margin:  auto;
+    text-align: center;
+    width: 50px;
+    height:  50px;
+    border-style: dotted;
+
+}
+
+
+
+#napakaDisplay{
+    background-color: #f37c0e; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2%  5%  2%  5%;
+
+
+}
+
+
+
+#logIN .default-text {
+    display: inline-block;
+    color: black;
+  }
+  #logIN .hover-text {
+    display: none;
+    color: black;
+  }
+  #logIN:hover .default-text {
+    display: none;
+    color: black;
+  }
+  #logIN:hover .hover-text {
+    display: inline-block;
+    color: black;
+  }
+
+  #logIN2{
+    color: black;
+  }
+#loginButton {
+    background-color: #f37c0e; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2%  2%  2%  2%;
+    margin-bottom: 3%;
+}
+
+#submitRegister{
+    background-color: #f37c0e; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2%  2%  2%  2%;
+    margin-bottom: 3%;
+}
+
+
+#spremembaUI{
+  display: block;
+  background-color: #81a4cd   ;
+  border:solid 1px #181b1c;
+  margin-top:5%;
+  margin-bottom:5%;
+  padding: 2%;
+  font-size:30px;
+
+}
+

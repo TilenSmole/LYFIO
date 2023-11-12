@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LYFIO</title>
+    <link rel="stylesheet" href="stils.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+    <script> 
+        $(function(){
+          $("#header").load("header.php"); 
+          $("#footer").load("footer.html"); 
+          $("#aside").load("aside.html"); 
+
+        });
+    </script> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="notranjost">
+        <div id="okoli"  class="col-10 col-s-12">
+            <article id = "besediloOProjektu">
+    
+                <h1 style="text-align: center;">O projektu</h1>
+                <p id="st" > Projekt je začel nastajati kot prva domača naloga, pri predmetu spletne tehnologije. Nadalen razvoj 
+                    je doživel pri tretji domači nalogi.
+                </p>
+                <p>Več informacij lahko najdeš na <a href="https://ucilnica.fri.uni-lj.si/mod/assign/view.php?id=20875">povezava na navodila.</a></p>
+                <br>
+                <H3 style="text-align: center;">TABELA VIROV UPORABLJENIH ZA IZDELAVO</H3>
+                <br>
+                <table id="viri"  >
+                    <tr >            
+                        <th >VIR</th>
+                        <th>POJASNILO</th>
+                    </tr>
+                    <tr>
+                        <td>učilnica FRI </td>
+                        <td>powerpointi predmeta ST</td>
+                    </tr>
+                    <tr>
+                        <td>https://www.w3schools.com/ 	</td>
+                        <td>strani o HTML, JavaScript, risanju grafov && Css</td>
+                    </tr>
+                    <tr >
+                        <td>https://www.educative.io/courses/learn-html-css-javascript-from-scratch/gxkvNgMqDk3	</td>
+                        <td>osnove dela z HTML, JavaScript && Css</td>
+                    </tr>
+                    <tr>
+                        <td>https://www.youtube.com/watch?v=zZ6vybT1HQshttps://www.w3schools.com/ 	</td>
+                        <td>osnove dela z PHP</td>
+                    </tr>
+                </table>
+                
+            </article >
+        </div>
+        
+        
+        <div id="aside" ></div>
+        <div id="footer"></div>
+    
+    </div>   
+    
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>

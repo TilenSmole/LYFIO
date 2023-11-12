@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LYFIO</title>
+    <link rel="stylesheet" href="stils.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+    <script> 
+        $(function(){
+          $("#header").load("header.php"); 
+          $("#footer").load("footer.html"); 
+          $("#aside").load("aside.html"); 
+
+        });
+    </script> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="notranjost">
+        <div id="grafStatistike">
+            <div id="yOsGrafa" class="col-1 col-s-2">
+                <p id="maxVrednostGrafa" ></p>
+                <p id="midVrednostGrafa"></p>
+                <p id="minVrednostGrafa"></p>
+            </div>
+       
+    
+            <div class="col-11 col-s-12">
+                <canvas id="platno" height="100" ></canvas>
+            </div>
+    
+     
+            <div id="legenda"  class="col-4 col-s-8">   
+                <p>LEGENDA PORABE</p>
+                <p id="maxsVrednostMobile">Max vrednost:</p>
+            </div>
+    
+    
+        
+        </div>   
+        </div>
+        
+   
+
+    <script src="graf.js"></script>
+
+
+
+    <div id="footer"></div>
+
+
+
+    
+</body>
+
+</html>
